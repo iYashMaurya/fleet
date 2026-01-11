@@ -2,7 +2,9 @@ module github.com/rancher/fleet/pkg/apis
 
 go 1.25.0
 
-toolchain go1.25.5
+toolchain go1.25.4
+
+replace github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20260111155633-72014ddd7f4b
 
 require (
 	github.com/rancher/wrangler/v3 v3.3.1
